@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0661EBC26BFED6B0006BE41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0661EBB26BFED6B0006BE41 /* AppDelegate.swift */; };
+		F0661EBE26BFED6B0006BE41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0661EBD26BFED6B0006BE41 /* SceneDelegate.swift */; };
+		F0661EC026BFED6B0006BE41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0661EBF26BFED6B0006BE41 /* ViewController.swift */; };
+		F0661EC326BFED6B0006BE41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0661EC126BFED6B0006BE41 /* Main.storyboard */; };
+		F0661EC626BFED6B0006BE41 /* RandomMeeting.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0661EC426BFED6B0006BE41 /* RandomMeeting.xcdatamodeld */; };
+		F0661EC826BFED6C0006BE41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0661EC726BFED6C0006BE41 /* Assets.xcassets */; };
+		F0661ECB26BFED6C0006BE41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0661EC926BFED6C0006BE41 /* LaunchScreen.storyboard */; };
+		F0661ED626BFED6C0006BE41 /* RandomMeetingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0661ED526BFED6C0006BE41 /* RandomMeetingTests.swift */; };
+		F0661EE126BFED6C0006BE41 /* RandomMeetingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0661EE026BFED6C0006BE41 /* RandomMeetingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0661ED226BFED6C0006BE41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0661EB026BFED6A0006BE41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0661EB726BFED6A0006BE41;
+			remoteInfo = RandomMeeting;
+		};
+		F0661EDD26BFED6C0006BE41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0661EB026BFED6A0006BE41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0661EB726BFED6A0006BE41;
+			remoteInfo = RandomMeeting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0661EB826BFED6A0006BE41 /* RandomMeeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomMeeting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0661EBB26BFED6B0006BE41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0661EBD26BFED6B0006BE41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F0661EBF26BFED6B0006BE41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0661EC226BFED6B0006BE41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0661EC526BFED6B0006BE41 /* RandomMeeting.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RandomMeeting.xcdatamodel; sourceTree = "<group>"; };
+		F0661EC726BFED6C0006BE41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0661ECA26BFED6C0006BE41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0661ECC26BFED6C0006BE41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0661ED126BFED6C0006BE41 /* RandomMeetingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomMeetingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0661ED526BFED6C0006BE41 /* RandomMeetingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomMeetingTests.swift; sourceTree = "<group>"; };
+		F0661ED726BFED6C0006BE41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0661EDC26BFED6C0006BE41 /* RandomMeetingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomMeetingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0661EE026BFED6C0006BE41 /* RandomMeetingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomMeetingUITests.swift; sourceTree = "<group>"; };
+		F0661EE226BFED6C0006BE41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0661EB526BFED6A0006BE41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0661ECE26BFED6C0006BE41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0661ED926BFED6C0006BE41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0661EAF26BFED6A0006BE41 = {
+			isa = PBXGroup;
+			children = (
+				F0661EBA26BFED6A0006BE41 /* RandomMeeting */,
+				F0661ED426BFED6C0006BE41 /* RandomMeetingTests */,
+				F0661EDF26BFED6C0006BE41 /* RandomMeetingUITests */,
+				F0661EB926BFED6A0006BE41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0661EB926BFED6A0006BE41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0661EB826BFED6A0006BE41 /* RandomMeeting.app */,
+				F0661ED126BFED6C0006BE41 /* RandomMeetingTests.xctest */,
+				F0661EDC26BFED6C0006BE41 /* RandomMeetingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0661EBA26BFED6A0006BE41 /* RandomMeeting */ = {
+			isa = PBXGroup;
+			children = (
+				F0661EBB26BFED6B0006BE41 /* AppDelegate.swift */,
+				F0661EBD26BFED6B0006BE41 /* SceneDelegate.swift */,
+				F0661EBF26BFED6B0006BE41 /* ViewController.swift */,
+				F0661EC126BFED6B0006BE41 /* Main.storyboard */,
+				F0661EC726BFED6C0006BE41 /* Assets.xcassets */,
+				F0661EC926BFED6C0006BE41 /* LaunchScreen.storyboard */,
+				F0661ECC26BFED6C0006BE41 /* Info.plist */,
+				F0661EC426BFED6B0006BE41 /* RandomMeeting.xcdatamodeld */,
+			);
+			path = RandomMeeting;
+			sourceTree = "<group>";
+		};
+		F0661ED426BFED6C0006BE41 /* RandomMeetingTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0661ED526BFED6C0006BE41 /* RandomMeetingTests.swift */,
+				F0661ED726BFED6C0006BE41 /* Info.plist */,
+			);
+			path = RandomMeetingTests;
+			sourceTree = "<group>";
+		};
+		F0661EDF26BFED6C0006BE41 /* RandomMeetingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0661EE026BFED6C0006BE41 /* RandomMeetingUITests.swift */,
+				F0661EE226BFED6C0006BE41 /* Info.plist */,
+			);
+			path = RandomMeetingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0661EB726BFED6A0006BE41 /* RandomMeeting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0661EE526BFED6C0006BE41 /* Build configuration list for PBXNativeTarget "RandomMeeting" */;
+			buildPhases = (
+				F0661EB426BFED6A0006BE41 /* Sources */,
+				F0661EB526BFED6A0006BE41 /* Frameworks */,
+				F0661EB626BFED6A0006BE41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RandomMeeting;
+			productName = RandomMeeting;
+			productReference = F0661EB826BFED6A0006BE41 /* RandomMeeting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0661ED026BFED6C0006BE41 /* RandomMeetingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0661EE826BFED6C0006BE41 /* Build configuration list for PBXNativeTarget "RandomMeetingTests" */;
+			buildPhases = (
+				F0661ECD26BFED6C0006BE41 /* Sources */,
+				F0661ECE26BFED6C0006BE41 /* Frameworks */,
+				F0661ECF26BFED6C0006BE41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0661ED326BFED6C0006BE41 /* PBXTargetDependency */,
+			);
+			name = RandomMeetingTests;
+			productName = RandomMeetingTests;
+			productReference = F0661ED126BFED6C0006BE41 /* RandomMeetingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0661EDB26BFED6C0006BE41 /* RandomMeetingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0661EEB26BFED6C0006BE41 /* Build configuration list for PBXNativeTarget "RandomMeetingUITests" */;
+			buildPhases = (
+				F0661ED826BFED6C0006BE41 /* Sources */,
+				F0661ED926BFED6C0006BE41 /* Frameworks */,
+				F0661EDA26BFED6C0006BE41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0661EDE26BFED6C0006BE41 /* PBXTargetDependency */,
+			);
+			name = RandomMeetingUITests;
+			productName = RandomMeetingUITests;
+			productReference = F0661EDC26BFED6C0006BE41 /* RandomMeetingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0661EB026BFED6A0006BE41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F0661EB726BFED6A0006BE41 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					F0661ED026BFED6C0006BE41 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F0661EB726BFED6A0006BE41;
+					};
+					F0661EDB26BFED6C0006BE41 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F0661EB726BFED6A0006BE41;
+					};
+				};
+			};
+			buildConfigurationList = F0661EB326BFED6A0006BE41 /* Build configuration list for PBXProject "RandomMeeting" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0661EAF26BFED6A0006BE41;
+			productRefGroup = F0661EB926BFED6A0006BE41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0661EB726BFED6A0006BE41 /* RandomMeeting */,
+				F0661ED026BFED6C0006BE41 /* RandomMeetingTests */,
+				F0661EDB26BFED6C0006BE41 /* RandomMeetingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0661EB626BFED6A0006BE41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0661ECB26BFED6C0006BE41 /* LaunchScreen.storyboard in Resources */,
+				F0661EC826BFED6C0006BE41 /* Assets.xcassets in Resources */,
+				F0661EC326BFED6B0006BE41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0661ECF26BFED6C0006BE41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0661EDA26BFED6C0006BE41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0661EB426BFED6A0006BE41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0661EC626BFED6B0006BE41 /* RandomMeeting.xcdatamodeld in Sources */,
+				F0661EC026BFED6B0006BE41 /* ViewController.swift in Sources */,
+				F0661EBC26BFED6B0006BE41 /* AppDelegate.swift in Sources */,
+				F0661EBE26BFED6B0006BE41 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0661ECD26BFED6C0006BE41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0661ED626BFED6C0006BE41 /* RandomMeetingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0661ED826BFED6C0006BE41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0661EE126BFED6C0006BE41 /* RandomMeetingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0661ED326BFED6C0006BE41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0661EB726BFED6A0006BE41 /* RandomMeeting */;
+			targetProxy = F0661ED226BFED6C0006BE41 /* PBXContainerItemProxy */;
+		};
+		F0661EDE26BFED6C0006BE41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0661EB726BFED6A0006BE41 /* RandomMeeting */;
+			targetProxy = F0661EDD26BFED6C0006BE41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0661EC126BFED6B0006BE41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0661EC226BFED6B0006BE41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0661EC926BFED6C0006BE41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0661ECA26BFED6C0006BE41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0661EE326BFED6C0006BE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0661EE426BFED6C0006BE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0661EE626BFED6C0006BE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACU8AXMR55;
+				INFOPLIST_FILE = RandomMeeting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dooly.ios.RandomMeeting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0661EE726BFED6C0006BE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACU8AXMR55;
+				INFOPLIST_FILE = RandomMeeting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dooly.ios.RandomMeeting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0661EE926BFED6C0006BE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACU8AXMR55;
+				INFOPLIST_FILE = RandomMeetingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dooly.ios.RandomMeetingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RandomMeeting.app/RandomMeeting";
+			};
+			name = Debug;
+		};
+		F0661EEA26BFED6C0006BE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACU8AXMR55;
+				INFOPLIST_FILE = RandomMeetingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dooly.ios.RandomMeetingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RandomMeeting.app/RandomMeeting";
+			};
+			name = Release;
+		};
+		F0661EEC26BFED6C0006BE41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACU8AXMR55;
+				INFOPLIST_FILE = RandomMeetingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dooly.ios.RandomMeetingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RandomMeeting;
+			};
+			name = Debug;
+		};
+		F0661EED26BFED6C0006BE41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACU8AXMR55;
+				INFOPLIST_FILE = RandomMeetingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dooly.ios.RandomMeetingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RandomMeeting;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0661EB326BFED6A0006BE41 /* Build configuration list for PBXProject "RandomMeeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0661EE326BFED6C0006BE41 /* Debug */,
+				F0661EE426BFED6C0006BE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0661EE526BFED6C0006BE41 /* Build configuration list for PBXNativeTarget "RandomMeeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0661EE626BFED6C0006BE41 /* Debug */,
+				F0661EE726BFED6C0006BE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0661EE826BFED6C0006BE41 /* Build configuration list for PBXNativeTarget "RandomMeetingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0661EE926BFED6C0006BE41 /* Debug */,
+				F0661EEA26BFED6C0006BE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0661EEB26BFED6C0006BE41 /* Build configuration list for PBXNativeTarget "RandomMeetingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0661EEC26BFED6C0006BE41 /* Debug */,
+				F0661EED26BFED6C0006BE41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F0661EC426BFED6B0006BE41 /* RandomMeeting.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F0661EC526BFED6B0006BE41 /* RandomMeeting.xcdatamodel */,
+			);
+			currentVersion = F0661EC526BFED6B0006BE41 /* RandomMeeting.xcdatamodel */;
+			path = RandomMeeting.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F0661EB026BFED6A0006BE41 /* Project object */;
+}
