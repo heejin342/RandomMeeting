@@ -7,16 +7,53 @@
 
 import UIKit
 import CoreData
+import KakaoSDKCommon
+import KakaoSDKAuth
+import KakaoSDKUser
+import NaverThirdPartyLogin
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        
+        
+        NaverThirdPartyLoginConnection.getSharedInstance()?.application(app, open: url, options: options)
+    
+        if (AuthApi.isKakaoTalkLoginUrl(url)) {
+            return AuthController.handleOpenUrl(url: url)
+        }
 
+            return false
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        let instance = NaverThirdPartyLoginConnection.getSharedInstance()
+                
+                // 네이버 앱으로 인증하는 방식 활성화
+                instance?.isNaverAppOauthEnable = false
+                
+                // SafariViewController에서 인증하는 방식 활성화
+                instance?.isInAppOauthEnable = true
+                
+                // 인증 화면을 아이폰의 세로모드에서만 적용
+                instance?.isOnlyPortraitSupportedInIphone()
+                
+                instance?.serviceUrlScheme = kServiceAppUrlScheme // 앱을 등록할 때 입력한 URL Scheme
+                instance?.consumerKey = kConsumerKey // 상수 - client id
+                instance?.consumerSecret = kConsumerSecret // pw
+                instance?.appName = kServiceAppName // app name
+
+
+        KakaoSDKCommon.initSDK(appKey: "2f68030dc66d310e49754d4179e9769e")
+        
         return true
     }
+    
+    
 
     // MARK: UISceneSession Lifecycle
 

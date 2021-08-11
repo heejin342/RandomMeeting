@@ -1,0 +1,6 @@
+framework module Pods_RandomMeeting_RandomMeetingUITests {
+  umbrella header "Pods-RandomMeeting-RandomMeetingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
